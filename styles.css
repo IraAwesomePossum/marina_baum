@@ -26,13 +26,17 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(222, 214, 209);
+  /* background-color: rgb(222, 214, 209); */
+  flex: 1;
 }
-.logo-container {
+.logo {
   display: flex;
 }
 .img-logo {
-  max-width: 15%;
+  max-width: 65%;
+}
+.nav {
+  display: flex;
 }
 
 .navigation {
@@ -42,14 +46,17 @@ ul {
 
 .navigation a {
   display: block;
-  padding: 1em;
+  padding: 0.4em;
   color: rgb(78, 78, 78);
   text-decoration: none;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.3rem;
 }
 
 .navigation a:hover {
   background: rgb(248, 248, 242);
+}
+.social {
+  display: flex;
 }
 
 .fab {
