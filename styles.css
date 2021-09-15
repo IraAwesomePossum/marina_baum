@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-weight: 400;
+  padding: 20px;
 }
 
 header {
@@ -102,16 +103,59 @@ ul {
 }
 
 .presentation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 95%;
   margin: auto;
   height: 89.5vh;
   align-items: center;
   background-image: radial-gradient(
       circle,
-      rgba(247, 245, 246, 0.4) 0%,
-      rgba(239, 242, 245, 0.4) 100%
+      rgba(247, 245, 246, 0.5) 0%,
+      rgba(239, 242, 245, 0.5) 100%
     ),
     url("./img/lorem.jpg");
   background-size: cover;
   background-position: top;
+  color: rgb(78, 78, 78);
+  margin-bottom: 10em;
+}
+.introduction {
+  text-align: center;
+}
+.introduction h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.introduction p {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.services {
+  background-color: rgb(240, 233, 232);
+  margin: auto;
+  width: 95%;
+  height: 100vh;
+}
+.service-container {
+  display: flex;
+  justify-content: center;
+}
+.card-img img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* clip-path: inset(0 27% 0 0); */
+  max-height: 35em;
+  min-width: 50em;
+}
+.card {
+  padding-top: 15px;
+
+  /* min-height: 150px; */
+  background-color: white;
+  text-align: center;
+  letter-spacing: 0.1rem;
 }
